@@ -1,0 +1,37 @@
+# Sistema de Inventario y Ventas
+
+Este proyecto consiste en el desarrollo de un sistema para gestionar inventarios y ventas en una tienda, utilizando tecnologías modernas y buenas prácticas de desarrollo de software.
+
+## Características Principales
+
+- **Registro y Autenticación de Usuarios**: Permite el registro y autenticación de empleados y administradores con roles diferenciados.
+  
+- **Gestión de Productos, Categorías y Stock**: Facilita la administración de productos, su categorización y el control de stock disponible.
+  
+- **Registro de Ventas y Generación de Reportes**: Permite el registro detallado de cada venta realizada y genera reportes para análisis posterior.
+  
+- **Panel de Administración**: Ofrece un panel de administración para visualizar el estado del inventario y las ventas de manera clara y concisa.
+  
+- **Integración con Sistema de Facturación**: Permite la integración con un sistema de facturación externo para facilitar la gestión contable y fiscal.
+  
+- **Microservicios con Spring Cloud**: Utiliza Spring Cloud para distribuir las responsabilidades en microservicios, separando lógicas como productos, ventas y gestión de usuarios.
+  
+- **Seguridad con Spring Security**: Implementa Spring Security para asegurar que las funcionalidades estén accesibles según el rol del usuario y proteger los datos sensibles.
+  
+## Requisitos Técnicos y Tecnológicos
+
+- **Java y Spring Boot**: Para el desarrollo del backend robusto y escalable.
+  
+- **Spring Security**: Para la autenticación y autorización de usuarios de manera segura.
+  
+- **Spring Cloud**: Para la gestión eficiente de los microservicios y su comunicación.
+  
+- **JWT (JSON Web Token)**: Para manejar la autenticación de forma segura y sin estado.
+  
+- **Base de Datos**: Utiliza bases de datos relacionales como MySQL o PostgreSQL, o no relacionales como MongoDB, para el almacenamiento persistente de datos.
+  
+- **Docker**: Se utiliza para la contenedorización de los microservicios, facilitando el despliegue y la escalabilidad.
+  
+- **CI/CD**: Implementa integración continua (CI) y entrega continua (CD) con herramientas como Jenkins o GitHub Actions, para automatizar pruebas y despliegues.
+  
+- **Front-end (Opcional)**: Interfaz gráfica desarrollada en Angular, React o Vue, para mejorar la experiencia de usuario.
